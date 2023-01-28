@@ -22,8 +22,7 @@ p {
 
 h1 {
     font-size: 48px;
-    margin-bottom: 16px;
-    color: #333333;
+    color: #bbbbbb;
     text-align: center;
 }
 
@@ -50,4 +49,10 @@ p {
     font-style: italic;
     color: gray;
     font-size: 0.8em;
+}
+
+.headline-div {
+    background-color: #333333;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
