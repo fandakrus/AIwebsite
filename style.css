@@ -56,3 +56,14 @@ p {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0;
+    }
+
+    .blog-post {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
