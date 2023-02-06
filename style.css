@@ -110,12 +110,39 @@ p {
 
 .nav-toggle {
     position: fixed;
-    top: 20px;
+    top: 25px;
     left: 20px;
     z-index: 1;
     display: none;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
   }
-
+  
+  .bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0;
+    background: #bbbbbb;
+    transition: transform 0.3s ease-in-out;
+    display: none;
+  }
+  
+  /* Change the appearance of the button when the navigation bar is out */
+  .show-nav .bar:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .show-nav .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .show-nav .bar:last-child {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
 
 @media only screen and (max-width: 1600px) {
     .left-nav {
@@ -133,6 +160,10 @@ p {
     .nav-toggle {
         display: block;
       }
+
+    .bar {
+        display: block;
+    }
 
     .container {
         padding: 0;
