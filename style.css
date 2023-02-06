@@ -73,7 +73,7 @@ p {
 
 h1 {
     font-size: 48px;
-    color: #bbbbbb;
+    color: #e6e6e6;
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ p {
     width: 100%;
     height: 4px;
     margin: 6px 0;
-    background: #bbbbbb;
+    background: #e6e6e6;
     transition: transform 0.3s ease-in-out;
     display: none;
   }
