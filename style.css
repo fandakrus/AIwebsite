@@ -75,6 +75,7 @@ h1 {
     font-size: 48px;
     color: #e6e6e6;
     text-align: center;
+    margin-right: 30;
 }
 
 h2 {
@@ -109,13 +110,13 @@ p {
 }
 
 .nav-toggle {
-    position: fixed;
-    top: 25px;
-    left: 20px;
+    position: absolute;
     z-index: 1;
     display: none;
     width: 40px;
     height: 40px;
+    margin-top: 1px;
+    margin-left: 10px; 
     background: transparent;
     border: none;
     outline: none;
@@ -156,6 +157,10 @@ p {
 
 
 @media (max-width: 1220px) {
+
+    h1 {
+      font-size: 40px;
+    }
 
     .nav-toggle {
         display: block;
