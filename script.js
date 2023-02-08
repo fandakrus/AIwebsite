@@ -1,5 +1,6 @@
 const toggleBtn = document.querySelector('.nav-toggle');
 const leftNav = document.querySelector('.left-nav');
+const navLinks = document.querySelectorAll('.left-nav a');
 
 /* Make the navigation bar disappear when clicking elsewhere on the page */
 document.addEventListener('click', function(event) {
@@ -7,6 +8,14 @@ document.addEventListener('click', function(event) {
     leftNav.classList.remove('show-nav');
     toggleBtn.style.display = 'block';
   }
+});
+
+/* Make the navigation bar disappear when clicking a link */
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    leftNav.classList.remove('show-nav');
+    toggleBtn.style.display = 'block';
+  });
 });
 
 toggleBtn.addEventListener('click', function() {
