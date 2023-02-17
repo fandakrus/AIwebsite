@@ -42,7 +42,7 @@ body {
   }
 
   .social-media a {
-    background-color: #3b5998; /* Facebook blue */
+    background-color: #505050; /* Facebook blue */
     padding: 12px;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
@@ -57,7 +57,7 @@ body {
   }
   
   .social-media a:hover i {
-    color: #3b5998;
+    color: #242424;
   }
   
   
