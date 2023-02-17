@@ -22,7 +22,7 @@ body {
   }
 
   .social-media {
-    height: 140px;
+    height: 160px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -205,6 +205,10 @@ p {
 
 
 @media (max-width: 1220px) {
+
+  .social-media a {
+    margin-right: 27px;
+  }
 
     .md {
       display: none;
